@@ -1,0 +1,116 @@
+
+// 1
+
+function adding(a,b,c){
+	return a + b + c;
+}
+console.log(adding(3,18,100));
+
+// 2
+
+function carColor(x){
+    return 'a '+x+' car';
+  }
+  let x = carColor(“red");
+console.log(x)
+
+// 3
+
+let laptop = {
+  year: 2017,
+  Countrty: 'USA',
+  Brand: 'Apple',
+  Edition:'Macbook',
+};
+function printLaptop(ram){
+  for(let c in ram){
+    console.log(c+':'+ram[c]);
+  }
+};
+
+printLaptop(laptop);
+
+// 4
+
+function vehicleType(color , code){
+	if(code == 1)
+		console.log("a " + color + " car");
+	else if (code == 2)
+		console.log("a " + color + " motorbike");
+}
+vehicleType("blue", 1);
+
+// 5
+
+(3 == 3)? console.log("true") : console.log("false");
+
+//6 
+function vehicle(color, code, age) {
+    if (age >= 5) {
+       if (code === 1) {
+            console.log("A " + color + " used" + " car.");
+        } else if (code == 2){
+            console.log("A " + color + "used" + " motorbike.");
+        }
+
+    } 
+    else if(age < 5) {
+        if (code === 1) {
+            console.log("A " + color + " new"+ " car.");
+        } else if (code === 2) {
+            console.log("A " + color + " new"+ " motorbike.");
+        }
+    } 
+}
+    vehicle("blue", 1, 5); 
+
+// 7
+
+let listOfVehicles = ['motorbike','caravan','bike' , ’truck’];
+
+// 8
+
+let third_element = listOfVehicles[2];
+console.log(third_element);
+
+//9 - 10 - 11
+
+// 12 
+
+let myObject = {};
+
+// 13 - 14 15 -16
+
+// 17
+let barr = 42; // -> return a string that contains 'number' value
+typeof typeof barr;// -> return a string that contains 'string' value because the first (typeof) returns a string type
+console.log(typeof typeof barr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
